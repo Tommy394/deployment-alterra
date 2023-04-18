@@ -1,0 +1,279 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Jost", sans-serif;
+	font-size: 16px;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.5s;
+	color: #5e5e5e;
+}
+
+a:hover {
+	color: rgba(71, 178, 228, 1);
+}
+
+.container {
+	max-width: 1440px;
+	margin: auto;
+	padding: 120px 93px;
+}
+
+.list-product__container {
+	padding-block: 60px;
+}
+
+.button {
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	border-width: 1px;
+	border-color: transparent;
+	border-radius: 20px;
+	padding: 10px 28px;
+	cursor: pointer;
+	transition: all 0.5s ease-out;
+}
+
+.button-primary {
+	background: rgba(71, 178, 228, 1);
+}
+
+.button-primary:hover {
+	background-color: rgb(1, 124, 180);
+}
+
+.button-secondary {
+	background: transparent;
+}
+
+.button-secondary:hover {
+	border-color: rgba(71, 178, 228, 1);
+	background-color: transparent;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.card-wrapper {
+	gap: 13px;
+}
+
+.navbar {
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar a {
+	font-weight: 500 !important;
+}
+
+.nav-link {
+	padding: 10px 20px !important;
+}
+
+.btn.active {
+	background-color: #0d6efd;
+}
+
+#hero {
+	color: white;
+	background: rgba(55, 81, 126, 1);
+}
+
+.hero__container {
+	display: flex;
+	align-items: center;
+}
+
+.hero__container > div {
+	flex: 1 1 100%;
+}
+
+.hero__text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hero__image-container {
+	flex-grow: 2;
+}
+
+.hero__title {
+	font-size: 48px;
+	line-height: 56px;
+}
+
+.hero__description {
+	font-weight: 500;
+	font-size: 24px;
+	color: rgba(255, 255, 255, 0.6);
+	margin-top: 10px;
+	line-height: 28.8px;
+}
+
+.hero__button-container {
+	margin-top: 57.8px;
+	display: flex;
+	gap: 40px;
+}
+
+.list-product__title {
+	font-size: 40px;
+	font-weight: 600;
+	color: #37517e;
+}
+
+#newsletter {
+	background: rgba(243, 245, 250, 1);
+	text-align: center;
+}
+
+.newsletter__container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.newsletter__title {
+	font-weight: 600;
+	color: #37517e;
+}
+
+.newsletter__description {
+	margin-top: 16px;
+	font-size: 15px;
+	color: #444444;
+}
+
+.newsletter__form {
+	margin-top: 37.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.newsletter__textfield {
+	width: 516px;
+	height: 40px;
+	padding-left: 12px;
+	border-color: transparent;
+	outline-color: transparent;
+	border-radius: 50px;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+	transition: all 0.5s;
+}
+
+.newsletter__textfield:hover {
+	background-color: rgb(240, 235, 235);
+}
+
+.newsletter__textfield:focus,
+.newsletter__textfield:active {
+	outline-color: rgba(71, 178, 228, 1);
+	background-color: rgb(240, 235, 235);
+}
+
+#newsletter input[type="submit"] {
+	transform: translateX(-33px);
+	padding: 9.5px 25px;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+}
+
+.footer__container {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
+#footer__info {
+	display: flex;
+	justify-content: center;
+}
+
+#footer__info > div {
+	flex: 1 1 100%;
+	margin-right: 10px;
+}
+
+#footer__info p,
+#footer__info a {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+#footer__info p {
+	color: #5e5e5e;
+}
+
+.footer__logo,
+#footer__info .title {
+	color: #37517e;
+}
+
+.footer__logo {
+	font-weight: 600;
+	font-size: 28px;
+}
+
+.footer__phone {
+	margin-top: 30px;
+}
+
+#footer__info li,
+.footer__social p {
+	margin-top: 24px;
+}
+
+.footer__social-icons {
+	margin-top: 17px;
+	display: flex;
+}
+
+.footer__social-icons div {
+	background: rgba(71, 178, 228, 1);
+	width: 36px;
+	height: 36px;
+	border-radius: 18px;
+	margin-right: 10px;
+}
+
+#footer__copy {
+	background: rgba(55, 81, 126, 1);
+	color: white;
+}
+
+.copy__container {
+	padding-top: 31px;
+	padding-bottom: 31px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#footer__copy p {
+	font-size: 14px;
+}
+
+#footer__copy a {
+	color: rgba(71, 178, 228, 1);
+}
+
+#footer__copy a:hover {
+	text-decoration: underline;
+}

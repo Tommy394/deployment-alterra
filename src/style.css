@@ -1,0 +1,34 @@
+/* .navbar {
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar a {
+	font-weight: 500 !important;
+}
+
+.nav-link {
+	padding: 10px 20px !important;
+}
+
+.btn.active {
+	background-color: #0d6efd;
+} */
+
+.form-control[type="file"]::file-selector-button {
+	background-color: #0d6efd;
+	color: white;
+	cursor: pointer;
+}
+
+.form-control[type="file"]::file-selector-button:hover {
+	background-color: transparent;
+}
+
+.input-error {
+	border-color: red;
+}
+
+.input-error:focus {
+	border-color: red !important;
+	box-shadow: 0 0 0 0.25rem hsla(0, 98%, 52%, 0.25) !important;
+}
